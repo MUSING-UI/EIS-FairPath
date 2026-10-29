@@ -1,0 +1,110 @@
+{
+  "checkpoints": {
+    "cs_dblp_mining_ir": {
+      "architecture": {
+        "head_hidden": 64,
+        "head_mode": "structure",
+        "heads": 2,
+        "hidden_dim": 128,
+        "input_dim": 16,
+        "layers": 4,
+        "role_mode": "membership",
+        "time_dim": 32
+      },
+      "bytes": 4909603,
+      "exact_state_dict_preserved": true,
+      "graph_sha256": "637c86a3fb29a909aca32f59e6f456acb967b9b8d7563b410604e6c406be9dc1",
+      "path": "checkpoints/cs_dblp_mining_ir.pt",
+      "sampler": {
+        "completion_mode": "native",
+        "depth_quotas": [
+          128,
+          256,
+          320,
+          320
+        ],
+        "event_budget": 1024,
+        "fanout": 32,
+        "history_window": 5,
+        "identity_mode": "preserve",
+        "layers": 4,
+        "occurrence_cap": 8192,
+        "route_cap": 32768,
+        "seed": 42
+      },
+      "sha256": "36ad54b958d5104ece9ded70ec9ee75febd7d39a35b38a73b7f922bed62e3563",
+      "source_checkpoint_sha256": "24e1904cb6560a923ac0c33ea53b9a174259289217af9f430ceaa36d55623893"
+    },
+    "cs_dblp_nlp": {
+      "architecture": {
+        "head_hidden": 64,
+        "head_mode": "structure",
+        "heads": 2,
+        "hidden_dim": 128,
+        "input_dim": 16,
+        "layers": 4,
+        "role_mode": "membership",
+        "time_dim": 32
+      },
+      "bytes": 4908529,
+      "exact_state_dict_preserved": true,
+      "graph_sha256": "f43e2cc390f004d8e38db842061b5f93ea2f2e33828e717d93b6d3e5a1ab88d2",
+      "path": "checkpoints/cs_dblp_nlp.pt",
+      "sampler": {
+        "completion_mode": "native",
+        "depth_quotas": [
+          128,
+          256,
+          320,
+          320
+        ],
+        "event_budget": 1024,
+        "fanout": 32,
+        "history_window": 5,
+        "identity_mode": "preserve",
+        "layers": 4,
+        "occurrence_cap": 8192,
+        "route_cap": 32768,
+        "seed": 42
+      },
+      "sha256": "4bcb482eab503aa4b1dfe0465f1a3c914a4d3debed42b2bf951e6f110e276cc8",
+      "source_checkpoint_sha256": "a0603268f9407b5631ee3a3799c98ce5e6831b18d3797049f1caf33eaccd86ea"
+    },
+    "cs_dblp_vision": {
+      "architecture": {
+        "head_hidden": 64,
+        "head_mode": "structure",
+        "heads": 2,
+        "hidden_dim": 128,
+        "input_dim": 16,
+        "layers": 4,
+        "role_mode": "membership",
+        "time_dim": 32
+      },
+      "bytes": 4909066,
+      "exact_state_dict_preserved": true,
+      "graph_sha256": "677544b2452fa23cacfd2e4d796ad8706f7e3b296aa149f20120f3e8fc83e37f",
+      "path": "checkpoints/cs_dblp_vision.pt",
+      "sampler": {
+        "completion_mode": "native",
+        "depth_quotas": [
+          128,
+          256,
+          320,
+          320
+        ],
+        "event_budget": 1024,
+        "fanout": 32,
+        "history_window": 5,
+        "identity_mode": "preserve",
+        "layers": 4,
+        "occurrence_cap": 8192,
+        "route_cap": 32768,
+        "seed": 42
+      },
+      "sha256": "b3f339cc97cdf5ee05f1ffe260c0f5626067e141da3c10f1a6e37f19c06d356d",
+      "source_checkpoint_sha256": "65b432c79e74baff9203d87397893b0c6b10111802fcbce3290678c059f56452"
+    }
+  },
+  "format": "eis-fairpath-teacher-manifest-v1"
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eis-fairpath"
+version = "0.1.0"
+description = "Edge-importance-supervised fair path explanations for dynamic heterogeneous graphs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.5", "numpy>=1.26", "networkx>=3.2", "scipy>=1.11"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+eis-fairpath = "eis_fairpath.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["eis_fairpath*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

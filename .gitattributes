@@ -1,0 +1,5 @@
+# Preserve portable data hashes across Windows and Unix checkouts.
+* text=auto eol=lf
+*.gz binary
+*.pt binary
+data/raw/dblp.json.gz filter=lfs diff=lfs merge=lfs -text

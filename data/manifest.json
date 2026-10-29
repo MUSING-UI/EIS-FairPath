@@ -1,0 +1,26 @@
+{
+  "schema": "eis-fairpath-data-v1",
+  "files": [
+    {
+      "path": "data/raw/dblp.json.gz",
+      "bytes": 94924986,
+      "sha256": "1503ae44f951af5567c57db477f0598f2efeccd2cca27371be1912612089037e"
+    },
+    {
+      "path": "data/processed/cs_dblp_mining_ir.json",
+      "bytes": 2917480,
+      "sha256": "637c86a3fb29a909aca32f59e6f456acb967b9b8d7563b410604e6c406be9dc1"
+    },
+    {
+      "path": "data/processed/cs_dblp_nlp.json",
+      "bytes": 3444422,
+      "sha256": "f43e2cc390f004d8e38db842061b5f93ea2f2e33828e717d93b6d3e5a1ab88d2"
+    },
+    {
+      "path": "data/processed/cs_dblp_vision.json",
+      "bytes": 3873032,
+      "sha256": "677544b2452fa23cacfd2e4d796ad8706f7e3b296aa149f20120f3e8fc83e37f"
+    }
+  ],
+  "total_bytes": 105159920
+}
